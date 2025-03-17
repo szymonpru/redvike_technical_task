@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "technical-task"
+version = "0.1.0"
+description = ""
+authors = ["szymonpru <szymon.pruszek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+diagrams = "^0.24.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
